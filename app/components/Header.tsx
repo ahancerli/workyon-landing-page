@@ -1,8 +1,7 @@
 "use client"
 
 import { Button } from "./ui/button"
-import { ImageWithFallback } from "./figma/ImageWithFallback"
-import workyonLogo from "../../app/landing-logo.jpeg"
+import Image from "next/image"
 
 export default function Header() {
 	const handleSmoothScroll = (e: React.MouseEvent<HTMLAnchorElement>, targetId: string) => {
@@ -20,11 +19,7 @@ export default function Header() {
 		<header className="w-full border-b bg-white/80 backdrop-blur-sm fixed top-0 z-50">
 			<div className="container mx-auto px-4 py-4 flex items-center justify-between">
 				<div className="flex items-center space-x-3">
-					<ImageWithFallback
-						src={workyonLogo.src}
-						alt="Workyon Logo"
-						className="w-12 h-12 object-contain"
-					/>
+					<Image src="/assets/img/logo.png" alt="Workyon Logo" width={120} height={40} priority />
 					<span className="font-bold text-2xl bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent">
 						Workyon
 					</span>

@@ -114,6 +114,23 @@ export default function Footer() {
 					</div>
 				</div>
 			</div>
+			{/* Gri şerit */}
+			<div className="bg-orange-50 py-3">
+				<div className="container mx-auto px-4">
+					<div className="text">
+						<p className="text-xs text-zinc-500">
+							<span className="bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent font-bold">
+								Workyon.com
+							</span>{" "}
+							bir{" "}
+							<span className="font-bold text-[12px] text-[#0083b5] tracking-tight font-sans">
+								Fiba
+							</span>{" "}
+							grup şirketidir.
+						</p>
+					</div>
+				</div>
+			</div>
 		</footer>
 	)
 }

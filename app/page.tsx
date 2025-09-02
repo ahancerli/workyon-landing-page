@@ -5,6 +5,8 @@ import JiraIntegration from "./components/JiraIntegration"
 import Demo from "./components/Demo"
 import Pricing from "./components/Pricing"
 import Footer from "./components/Footer"
+import DemoRequest from "./components/DemoRequest"
+import { Toaster } from "./components/ui/sonner"
 
 export default function HomePage() {
 	return (
@@ -16,8 +18,10 @@ export default function HomePage() {
 				<JiraIntegration />
 				<Demo />
 				<Pricing />
+				<DemoRequest />
 			</main>
 			<Footer />
+			<Toaster />
 		</>
 	)
 }

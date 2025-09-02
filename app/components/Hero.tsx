@@ -2,7 +2,6 @@
 
 import { Button } from "./ui/button"
 import { Badge } from "./ui/badge"
-import { ImageWithFallback } from "./figma/ImageWithFallback"
 
 export default function Hero() {
 	const handleSmoothScroll = (targetId: string) => {
@@ -37,8 +36,9 @@ export default function Hero() {
 						<Button
 							size="lg"
 							className="px-8 bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white border-0"
+							onClick={() => handleSmoothScroll("demo-request")}
 						>
-							Ücretsiz Başlayın
+							Demo Talep Et
 						</Button>
 						<Button
 							size="lg"
