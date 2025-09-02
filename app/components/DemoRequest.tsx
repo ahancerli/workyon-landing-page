@@ -56,7 +56,7 @@ export default function DemoRequest() {
 		setTimeout(async () => {
 			console.log("Demo request submit ilk yer:", formData)
 			try {
-				const response = await fetch("/api/sendEmail", {
+				/*const response = await fetch("/api/sendEmail", {
 					method: "POST",
 					headers: {
 						"Content-Type": "application/json",
@@ -69,7 +69,7 @@ export default function DemoRequest() {
 					)
 					setIsSubmitting(false)
 					return
-				}
+				}*/
 				toast.success(
 					"Demo talebiniz başarıyla gönderildi! En kısa sürede sizinle iletişime geçeceğiz.",
 				)
