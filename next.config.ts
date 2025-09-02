@@ -1,7 +1,9 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	experimental: {
+		optimizePackageImports: ["lucide-react"],
+	},
+	images: {
+		domains: ["images.unsplash.com", "unsplash.com"],
+	},
+}
