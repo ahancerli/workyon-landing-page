@@ -61,7 +61,12 @@ export default function Header() {
 						Giriş Yap
 					</Button>
 					<Button
-						onClick={(e) => handleSmoothScroll(e, "demo-request")}
+						onClick={(e: React.MouseEvent<HTMLButtonElement>) =>
+							handleSmoothScroll(
+								e as unknown as React.MouseEvent<HTMLAnchorElement>,
+								"demo-request",
+							)
+						}
 						className="bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white border-0"
 					>
 						Ücretsiz Dene
