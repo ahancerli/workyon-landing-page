@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing"
 import Footer from "./components/Footer"
 import DemoRequest from "./components/DemoRequest"
 import { Toaster } from "./components/ui/sonner"
+import FloatingDemoButton from "./components/FloatingDemoButton"
 
 export default function HomePage() {
 	return (
@@ -21,6 +22,7 @@ export default function HomePage() {
 				<DemoRequest />
 			</main>
 			<Footer />
+			<FloatingDemoButton />
 			<Toaster />
 		</>
 	)
