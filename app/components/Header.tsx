@@ -60,7 +60,10 @@ export default function Header() {
 					<Button variant="ghost" className="hover:text-blue-600">
 						Giriş Yap
 					</Button>
-					<Button className="bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white border-0">
+					<Button
+						onClick={(e) => handleSmoothScroll(e, "demo-request")}
+						className="bg-gradient-to-r from-blue-600 to-orange-500 hover:from-blue-700 hover:to-orange-600 text-white border-0"
+					>
 						Ücretsiz Dene
 					</Button>
 				</div>
