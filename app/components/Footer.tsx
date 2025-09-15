@@ -103,7 +103,7 @@ export default function Footer() {
 				<Separator className="my-8 bg-white/20" />
 
 				<div className="flex flex-col md:flex-row justify-between items-center">
-					<p className="text-sm text-white/80">© 2025 Workyon. Tüm hakları saklıdır.</p>
+					<p className="text-sm text-white/80">© 2025 Workyon.com Tüm hakları saklıdır.</p>
 					<div className="flex items-center space-x-4 mt-4 md:mt-0">
 						<a href="#" className="text-sm text-white/80 hover:text-white transition-colors">
 							Gizlilik Politikası
@@ -111,23 +111,6 @@ export default function Footer() {
 						<a href="#" className="text-sm text-white/80 hover:text-white transition-colors">
 							Kullanım Şartları
 						</a>
-					</div>
-				</div>
-			</div>
-			{/* Gri şerit */}
-			<div className="bg-orange-50 py-3">
-				<div className="container mx-auto px-4">
-					<div className="text">
-						<p className="text-xs text-zinc-500">
-							<span className="bg-gradient-to-r from-blue-600 to-orange-500 bg-clip-text text-transparent font-bold">
-								Workyon.com
-							</span>{" "}
-							bir{" "}
-							<span className="font-bold text-[12px] text-[#0083b5] tracking-tight font-sans">
-								Fiba
-							</span>{" "}
-							grup şirketidir.
-						</p>
 					</div>
 				</div>
 			</div>
