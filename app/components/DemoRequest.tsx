@@ -158,7 +158,7 @@ export default function DemoRequest() {
 									</div>
 
 									<div className="space-y-2">
-										<Label htmlFor="phone">Telefon Numarası *</Label>
+										<Label htmlFor="phone">Telefon Numarası (Opsiyonel)</Label>
 										<Input
 											id="phone"
 											name="phone"
@@ -167,7 +167,6 @@ export default function DemoRequest() {
 											onChange={handleInputChange}
 											placeholder="0532 123 45 67"
 											className="h-12"
-											required
 										/>
 									</div>
 
